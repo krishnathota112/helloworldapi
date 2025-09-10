@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Django stuff
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
