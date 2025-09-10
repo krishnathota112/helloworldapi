@@ -14,4 +14,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["gunicorn", "hello_api.wsgi:application", "--bind", "0.0.0.0:${PORT}"]
+CMD ["sh", "-c", "gunicorn hello_api.wsgi:application --bind 0.0.0.0:$PORT"]
